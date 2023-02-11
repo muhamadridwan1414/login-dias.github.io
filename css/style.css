@@ -1,0 +1,40 @@
+.left-container {
+  background: url("https://dias.ulbi.ac.id/assets/vendors/images/latar/latar_1640413876.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+}
+
+.buttom-logo::after {
+  content: "";
+  display: block;
+  border-bottom: 5px solid #fd7e14;
+  width: 50%;
+  margin: left;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.text-darkblue {
+  color: #1e3572;
+}
+
+.fs-semi-default {
+  color: #646464;
+  font-size: 11px;
+}
+
+.fs-default {
+  font-size: 14px;
+  color: #646464;
+}
+
+.shadow-default {
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+
+.btn-primary {
+  background-color: #f55623 !important;
+  border: none;
+}
